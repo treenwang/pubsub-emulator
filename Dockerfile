@@ -10,5 +10,5 @@ VOLUME /var/pubsub
 
 EXPOSE 8085
 
-CMD [ "gcloud", "beta", "emulators", "pubsub", "start", "--data-dir=/var/pubsub", "--host-port=127.0.0.1:8085", "--log-http", "--verbosity=debug", "--user-output-enabled" ]
+CMD [ "gcloud", "beta", "emulators", "pubsub", "start", "--data-dir=/var/pubsub", "--host-port=0.0.0.0:8085", "--log-http", "--verbosity=debug", "--user-output-enabled" ]
 
