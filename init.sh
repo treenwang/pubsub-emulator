@@ -13,7 +13,7 @@ if [ "$#" -le 2 ]; then
 	    echo "ENV vars were set -> using env vars"
 	    PUBSUB_PROJECT_ID=${PUBSUB_PROJECT_ID}
         PUBSUB_TOPIC_ID=${PUBSUB_TOPIC_ID}
-        PUBSUB_SUBSCRIPTION_ID=${PUBSUB_TOPIC_ID}
+        PUBSUB_SUBSCRIPTION_ID=${PUBSUB_SUBSCRIPTION_ID}
 	fi
 else
     PUBSUB_PROJECT_ID=$1
