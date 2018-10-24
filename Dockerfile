@@ -36,4 +36,4 @@ ADD publisher.py publisher.py
 ADD wait-for-it.sh wait-for-it.sh
 ADD init.sh init.sh
 
-CMD ["./init.sh"]
+ENTRYPOINT ["./init.sh"]
