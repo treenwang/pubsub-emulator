@@ -1,4 +1,4 @@
-FROM google/cloud-sdk:232.0.0-alpine
+FROM google/cloud-sdk:243.0.0-alpine
 
 COPY env.yaml /var/pubsub/env.yaml
 
