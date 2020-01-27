@@ -2,7 +2,7 @@ FROM google/cloud-sdk:277.0.0-alpine
 
 COPY env.yaml /var/pubsub/env.yaml
 
-RUN apk --update add openjdk7-jre
+RUN apk --update add openjdk8
 RUN gcloud components install --quiet beta pubsub-emulator
 RUN gcloud components update
 
